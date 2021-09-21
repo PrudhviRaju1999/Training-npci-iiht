@@ -18,7 +18,7 @@ public static void main(String[] args)
             System.out.println("its nly a square");
         }
     }
-    if(firstval%prev==0)
+    else if(firstval%prev==0)
     {
         System.out.println("it is a square and multiple of %d "+(firstval/prev));
     }

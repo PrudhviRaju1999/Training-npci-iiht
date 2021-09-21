@@ -1,2 +1,0 @@
-sampe
-Gerrit uses the refs/for/ prefix to map the concept of "Pushing for Review" to the git protocol. For the git client, it looks like every push goes to the same branch, such as refs/for/master. In fact, for each commit pushed to this ref, Gerrit creates a new ref under a refs/changes/ namespace, which Gerrit uses to track these commits. These references use the following format:

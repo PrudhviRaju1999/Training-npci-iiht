@@ -25,16 +25,16 @@ public class Condtionals
      }
      else if(count%2==0)
      {
-         System.out.println("number is %d"+y+"and square is "+y*y);
+         System.out.println("number is "+y+"and square is "+count*count);
          return;
      }
      else if(count%3==0)
      {
-         System.out.println("number is %d"+y+"and cube is "+y*y*y);
+         System.out.println("number is "+y+"and cube is "+count*count*count);
      }
-     else if((y-1)%2==0)
+     else if((count-1)%2==0)
      {
-         System.out.println("number is %d"+y+"and small even  is "+(y-1)+"square is "+y*y);
+         System.out.println("number is "+y+"and small even  is "+(count-1)+"square is "+((count-1)*(count-1)));
      }
     }
 }

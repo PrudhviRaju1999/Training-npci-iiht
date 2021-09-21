@@ -25,6 +25,7 @@ public static void main(String[] args)
     else{
         System.out.println("neither square or multiple");
     }
+    sc.close();
 }
 
 

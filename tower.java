@@ -3,6 +3,7 @@ public class tower {
     public static void main(String[] args) {
         int n=5;
         int x=1;
+        int sum=0;
       for (int i=0; i<n; i++)
       {
   
@@ -17,13 +18,13 @@ public class tower {
           for (int j=0; j<=i; j++ )
           {
              
-              System.out.print(" "+x);
+              System.out.print(" "+sum);
               
           }
   
           
           System.out.println();
-          x++;
+          sum=sum+1;
       }
   }
     }  

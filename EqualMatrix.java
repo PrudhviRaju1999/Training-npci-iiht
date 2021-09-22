@@ -29,19 +29,19 @@ public class EqualMatrix {
 
 
 
-        for(int x=0;i<first.length;x++){
+        for(int x=0;x<first.length;x++){
             for(int y=0;y<first[0].length;y++)
             {        
-                System.out.println(first[x][y]+" ");
+                System.out.print(first[x][y]+" ");
     
             }
     
             System.out.println( );
         }
-        for(int x=0;i<first.length;x++){
+        for(int x=0;x<first.length;x++){
             for(int y=0;y<first[0].length;y++)
             {        
-                System.out.println(second[x][y]+" ");
+                System.out.print(second[x][y]+" ");
     
             }
     

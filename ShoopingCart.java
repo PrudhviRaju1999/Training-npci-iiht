@@ -47,12 +47,12 @@ public class ShoopingCart
 					item.get(i).quantity -= quantity;
 					return;
 				}
-				System.out.println("Not items  in the cart to be removed");
+				System.out.println("No items  ");
 				
 	return;
 			}
 		}
-		System.out.println("This item is not present in the cart");
+		System.out.println(" item is not there");
 		
 	}
 
@@ -80,7 +80,7 @@ public class ShoopingCart
 		System.out.println(cart.getTotal());
 		
 		cart.addItem("Football", 2, 15);
-		cart.removeItem("Maggi", 4);
+		
 		cart.removeItem("Ketchup", 2);
 		System.out.print(cart.getTotal());
 		System.out.print("\n");
